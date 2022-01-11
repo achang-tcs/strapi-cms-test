@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "onboardintros",
+  "info": {
+    "singularName": "onboardintro",
+    "pluralName": "onboardintros",
+    "displayName": "Onboardintro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Here's what's coming up."
+    },
+    "header": {
+      "type": "string",
+      "default": "This exercise is divided into three sections:"
+    },
+    "contentblock1header": {
+      "type": "string",
+      "default": "Part 1: What options do you prefer?"
+    },
+    "contentblock1text": {
+      "type": "text",
+      "default": "Share your preferences across a range of offerings within each category."
+    },
+    "contentblock2header": {
+      "type": "string",
+      "default": "Part 2: How important is each category?"
+    },
+    "contentblock2text": {
+      "type": "text",
+      "default": "Rate the importance of each category relative to the others."
+    },
+    "contentblock3header": {
+      "type": "string",
+      "default": "Part 3: How would you trade off options?"
+    },
+    "contentblock3text": {
+      "type": "text",
+      "default": "For pairs of options, tell us how much you prefer one over the other."
+    },
+    "note": {
+      "type": "richtext",
+      "default": "**Helpful tip!** Click on the `<span class=\"tooltip-indicator-no-pointer\"></span>` symbol for more information. You will see it on every page on each of the icons."
+    }
+  }
+}
